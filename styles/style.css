@@ -80,3 +80,43 @@ nav li a{
         padding: 50px;
     }
 }
+
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-con{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+.team-img-con{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-title{
+    font-size: 2.8rem;
+}
+.team-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.team-title .of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.team-title .text-feature{
+    color: #FF900E;
+    font-weight: 700;
+}
+.team-des{
+    width: 537px;
+    font-weight: 400;
+    color: #727272;
+}
