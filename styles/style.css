@@ -99,6 +99,16 @@ main{
     font-weight: 400;
     color: #727272;
 }
+.fact-title{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.fact-des{
+    width: 542px;
+    font-weight: 400;
+    color: #727272;
+}
 
 /* responsive media queries */
 /* mobile device */
