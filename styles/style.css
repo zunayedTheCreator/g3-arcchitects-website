@@ -95,7 +95,6 @@ main{
     font-weight: 700;
 }
 .team-des{
-    width: 537px;
     font-weight: 400;
     color: #727272;
 }
@@ -142,7 +141,6 @@ main{
 }
 .feature-img img{
     position: relative;
-    left: 20px;
     height: 90%;
 }
 
@@ -204,6 +202,17 @@ main{
 }
 .sponsors-img-con img{
     width: 165px;
+}
+
+/* footer styles */
+.copy{
+    text-align: center;
+}
+.copy p{
+    height: 40px;
+    padding-top: 20px;
+    background: #FFF4E7;
+    border-radius: 8px;
 }
 
 /* responsive media queries */
