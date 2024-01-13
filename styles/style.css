@@ -140,7 +140,6 @@ main{
     font-size: 1.5rem;
 }
 .feature-img img{
-    position: relative;
     height: 90%;
 }
 
@@ -229,13 +228,17 @@ main{
     {
         flex-direction: column;
     }
+    .feature-img{
+        text-align: center;
+    }
     .feature-img img{
         width: 90%;
         margin-left: 0;
     }
     .ten-years{
-        position: static;
+        position: relative;
         max-width: 300px;
+        left: 10px;
     }
     .team-img-con{
         grid-template-columns: 1fr;
@@ -246,6 +249,12 @@ main{
     }
     .facts-card-container{
         gap: 20px;
+    }
+    .feature-des{
+        padding-left: 20px;
+    }
+    .feature-title{
+        margin-left: 20px;
     }
 
 }
@@ -258,7 +267,19 @@ main{
     {
         flex-direction: column;
     }
+    .feature-img{
+        text-align: center;
+    }
     header{
         padding: 50px;
+    }
+    .feature-des{
+        padding-left: 50px;
+    }
+    .feature-title{
+        margin-left: 50px;
+    }
+    .ten-years{
+        left: 70px;
     }
 }
